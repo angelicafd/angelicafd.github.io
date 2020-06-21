@@ -193,7 +193,7 @@ header{
 	
 	.dmenu li{
 		text-decoration:none;
-	border: 1px solid #fff;
+	border: 2.4px solid #fff;
 	font-size: 17px;
 	padding: 10px 35px;
 	color:white;
@@ -410,21 +410,45 @@ and (max-device-height:813px){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen
+and (max-device-width:415px) 
+and (max-device-height:896px){
+	.title{
+		font-size:32px;
+		line-height:78px;
+		width:49%;
+		position:absolute;
+		top:-8%;
+		left:2%;
+	}
+	.dmenu{
+		position:absolute;
+		left:-32%;
+		
+	}
+	.dmenu li{
+		height:35px;
+		width:55px;
+		padding-top:19px;
+		text-align:center;
+	}
+	}
+	.dmenu li a{
+		font-size:19px;
+		font-weight:bolder;
+		text-align:center;
+	}
+	.banner-text{
+		position:absolute;
+		left:94%;
+		top:20%;
+	}
+	.banner-text p{
+		font-size:20px;
+	}
+	.dmenu li{
+		font-size:16px;
+		text-align:center;
+	}
+}
 
