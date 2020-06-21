@@ -806,6 +806,7 @@ h1{
 		line-height:69px;
 		position:absolute;
 		top:1%;
+		width:60%;
 	}
 	.dmenu{
 		position:absolute;
@@ -813,9 +814,9 @@ h1{
 	}
 	.container{
 		position:absolute;
-		top:120%;
+		top:52%;
 		left:50%;
-		height:50%;
+		height:45%;
 		
 	  }
 		
@@ -823,24 +824,6 @@ h1{
 		
 		
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
